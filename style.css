@@ -68,3 +68,13 @@ p.cursor::after {
 .project-description {
     font-family: 'Mali', cursive;
 }
+
+.heading-about {
+    font-family: 'Fugaz One', cursive;
+    margin-top: 100px;
+}
+
+.about-para {
+    font-size: 20px;
+    font-family: 'Mali', cursive;
+}
