@@ -102,14 +102,14 @@ p.cursor::after {
     margin-bottom: 100px;
 }
 
-ul {
+.ul1 {
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-ul a {
+.ul1 a {
     display: block;
     font-size: 40px;
     width: 60px;
@@ -122,8 +122,8 @@ ul a {
     position: relative;
 }
 
-ul a::before,
-ul a::after {
+.ul1 a::before,
+.ul1 a::after {
     content: '';
     position: absolute;
     box-sizing: boreder-box;
@@ -134,18 +134,18 @@ ul a::after {
     transition: .4s linear;
 }
 
-ul a:hover {
+.ul1 a:hover {
     transform: scale(.8);
 }
 
-ul a:hover::before {
+.ul1 a:hover::before {
     border-left: 4px solid;
     border-right: 4px solid;
     transform: skewX(-20deg);
     border-radius: 50%;
 }
 
-ul a:hover::after {
+.ul1 a:hover::after {
     border-top: 4px solid;
     border-bottom: 4px solid;
     transform: skewY(20deg);
