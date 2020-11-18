@@ -101,6 +101,9 @@ p.cursor::after {
     font-weight: bolder;
     margin-bottom: 100px;
 }
+.submit:hover {
+    color: white;
+}
 
 .ul1 {
     list-style-type: none;
